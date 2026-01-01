@@ -1,0 +1,20 @@
+{
+  "name": "birthday-reminder-app",
+  "version": "1.0.0",
+  "description": "This app allows me send well wishes to customer on their birthday. This is also an Alt School assignment that shows my understanding of what i have learnt so far and how cron job is been implemented ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14"
+  },
+  "author": "Joel Hanson",
+  "license": "ISC"
+}
